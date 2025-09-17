@@ -1,10 +1,10 @@
 {
   "name": "pii-sanitizer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Sanitizes the personal identification information  ",
   "scripts": {
     "start": "node ./examples/index.js",
-    "build":"tsc"
+    "build": "tsc"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
