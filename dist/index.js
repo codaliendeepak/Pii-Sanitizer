@@ -180,3 +180,4 @@ class Sanitizer {
     }
 }
 module.exports = { Sanitizer };
+//# sourceMappingURL=index.js.map

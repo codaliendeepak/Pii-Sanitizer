@@ -2,11 +2,12 @@
   "name": "pii-sanitizer",
   "version": "1.0.0",
   "description": "Sanitizes the personal identification information  ",
-  "main": "index.js",
   "scripts": {
-    "start": "nodemon ./examples/index.js",
-    "test": "jest"
+    "start": "node ./examples/index.js",
+    "build":"tsc"
   },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "keywords": [
     "pii",
     "sanitizer"
