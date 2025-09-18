@@ -85,6 +85,7 @@ fastify.post("/signup", async (req, reply) => {
 });
 
 fastify.listen({ port: 3000 });
+```
 
 ### Decoding Example
 
